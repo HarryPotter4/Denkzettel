@@ -17,10 +17,7 @@ $ID = 0;
  * Connection to database: Auslagern!
  */
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "denkzettel";
+
 // Create connection
 $conn = new mysqli("localhost", "denkzettel", "some_pass", "denkzettel");
 // Check connection

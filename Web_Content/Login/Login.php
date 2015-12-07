@@ -11,12 +11,9 @@ $lPassword = $_POST['lPassword'];
  * Connection to database: Auslagern!
  */
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "denkzettel";
+
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli("localhost", "denkzettel", "some_pass", "denkzettel");
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
