@@ -44,6 +44,7 @@ echo "</table>";
 foreach($result as $item)
 {
     if($lPassword == $item['password']){
+
         header('Location: ../redirect_home.php');
         exit;
     }
