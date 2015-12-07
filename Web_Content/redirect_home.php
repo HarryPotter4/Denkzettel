@@ -25,7 +25,7 @@
     <div class="login-box">
 
         <div class="form-group">
-            <form action="/Denkzettel/home.php">
+            <form action="/../home.php">
                 <button class="btn btn-primary btn-lg btn-block" type="submit">GO TO ACCOUNT</button>
             </form>
         </div>
