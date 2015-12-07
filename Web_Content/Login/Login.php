@@ -13,7 +13,7 @@ $lPassword = $_POST['lPassword'];
 
 
 // Create connection
-$conn = new mysqli("localhost", "denkzettel", "some_pass", "denkzettel");
+$conn = new mysqli("193.196.7.22", "denkzettel", "some_pass", "denkzettel");
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
